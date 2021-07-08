@@ -1,6 +1,6 @@
 # fut_runner
 This is an example how to execute script which needs additional dependencies w/o sourcing the depndencies directly in the script body.
-fut_run.sh file takes care of sourcing the dependencies (env variables and functions) before running the script : for example test1.sh in this case
+fut_run.sh file takes care of sourcing the dependencies (env variables and functions) before running the script.
 Input agruments for running script are passed automatically to the script due to sourcing.
 
 An example of usage:
